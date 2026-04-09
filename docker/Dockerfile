@@ -3,4 +3,5 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install --production
 COPY . .
+CMD ["node", "src/index.js"]
 CMD ["echo", "Container pronto. Aguardando comando do Cron Job."]
