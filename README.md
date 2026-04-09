@@ -2,14 +2,14 @@
 This project provides an automated synchronization between Bitrix24 and Field Control management system, which optimizes the workflow by automatically moving CRM deals to the next stage once their corresponding Service Orders are marked as completed in the Field platform.
 
 ## 🚀 Features
-- ***Automated status tracking:*** Performs daily checks on Field Control for completed Service Orders.
-- ***OS Verification:*** Maps identifiers to internal IDs from Bitrix, and fetches the task ID from Field which contains the info needed to determine if a Service Order was completed or not.
-- ***Docker App:*** Fully containerized for easy deployment on platforms.
+- **Automated status tracking:** Performs daily checks on Field Control for completed Service Orders.
+- **OS Verification:** Maps identifiers to internal IDs from Bitrix, and fetches the task ID from Field which contains the info needed to determine if a Service Order was completed or not.
+- **Docker App:** Fully containerized for easy deployment on platforms.
 
 ## 📦 Tech Stack
-- ****Node.js:*** Core runtime environment.
-- ***Fetch API:*** For communication with Bitrix and Field Control REST APIs.
-- ***Docker:*** For simple and easy environment setup and deployment.
+- **Node.js:** Core runtime environment.
+- **Fetch API:** For communication with Bitrix and Field Control REST APIs.
+- **Docker:** For simple and easy environment setup and deployment.
 
 ## 📝 Here's how it works
 1. The script fetches active deals from a specific Bitrix24 pipeline and stage.
