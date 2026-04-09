@@ -36,8 +36,9 @@ This project provides an automated synchronization between Bitrix24 and Field Co
 ## 👑 Contact
 
 Developed by **Jessica Duarte**.
+
 If you have any questions or want to collaborate, feel free to reach out.
-Additionally, if you have any questions, reach out to me at jessicamirandaduarte@gmail.com .
+Additionally, if you have any questions, reach out to me at jessicamirandaduarte@gmail.com 
 
 ---
 
