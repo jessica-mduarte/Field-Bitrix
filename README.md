@@ -17,10 +17,12 @@ This project provides an automated synchronization between Bitrix24 and Field Co
 2. It extracts Service Order from a custom field (In this example, UF_CRM_1775677796).
    
 3. It queries the Field Control API in two steps. These two steps are needed because the Field API doesn't return the OS status information by fetching the OS id alone, but the Task id(which the OS id *does* return) is able to fetch us that info.
+ 
      -***Step 1***: We find the Task Id by using the identifier(the OS id we got from Bitrix)
+   
      -***Step 2***: We check the /tasks endpoint for a "done" status.
 
-4. If the task is marked as "done", the Bitrix24 deal is automatically moved to our target stage.
+6. If the task is marked as "done", the Bitrix24 deal is automatically moved to our target stage.
 
 ## ⚙️ Setup
 1. Clone the repository.
