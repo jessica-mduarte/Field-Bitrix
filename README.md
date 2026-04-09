@@ -28,7 +28,7 @@ This project provides an automated synchronization between Bitrix24 and Field Co
 1. Clone the repository.
 2. Run `npm install`.
 3. Create a `.env` file based on `.env.example`.
-4. Change the variables in bitrix.js to match your actual Bitrix stage and field variables.
+4. Change the variables in .env to match your actual Bitrix stage and field variables.
 5. Run the project using `node index.js` or `docker-compose up`.
 
 
